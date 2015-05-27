@@ -281,7 +281,7 @@ extern "system" {
     // pub fn GdiEndPageEMF();
     // pub fn GdiFlush();
     // pub fn GdiGetBatchLimit();
-    // pub fn GdiGetDC();
+    pub fn GetDC(hwnd: HWND) -> HDC;
     // pub fn GdiGetDevmodeForPage();
     // pub fn GdiGetPageCount();
     // pub fn GdiGetPageHandle();
